@@ -1,0 +1,5 @@
+ public class mail{
+   public satic void main(String[] args){
+     System.out.println("mail");
+    }
+}
