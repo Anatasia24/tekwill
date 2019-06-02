@@ -1,7 +1,7 @@
  public class ifElse{
    public static void main(String[] args){
 //1
-      byte d = 14;
+      double d = 145.7;
 //2
       byte f =13;
 //3
@@ -17,7 +17,7 @@
 //8
       byte b = 0;
 //9
-      byte w = -9;
+      double w = -967.9875;
 //10
       byte q = -6;
 //11
@@ -27,9 +27,14 @@
 //13
       byte k = -41;
 //14
-      byte g = -7;
+      double g = -7234.65;
 //15
       byte p = -33;
+//16
+      byte t;
+//17
+       double n;
+
 //1
                if(f<0){System.out.println("f<0");}
                else if(f>0 ) {System.out.println("f>0");}
@@ -84,13 +89,131 @@
                else{System.out.println("k=0");}            
 //14
                if(g<0){System.out.println("g<0");}
-               else if (g>0){System.out.println("g>0");}
+               else if(g>0) {System.out.println("g>0");}
                else{System.out.println("g=0");}
 //15
                if(p<0){System.out.println("p>0");}
                else if (p>0){System.out.println("p>0");}
-               else{System.out.println("p=0");} 
-                      
-                     System.out.println("ifElse");  
+               else{System.out.println("p=0");}
+
+//1
+               if(f % 2==0) {System.out.println("par");}
+               else{System.out.println("impar");} 
+
+//2              
+               if(d %2==0) {System.out.println("par");}
+               else {System.out.println("impar");}
+
+//3                 
+               if(h %2==0) {System.out.println("par");}
+               else {System.out.println("impar");}
+
+//4
+                if(j%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//5
+                if(c%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//6
+                if(a %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//7                
+                if(l %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//8
+                if(b%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//9            
+                if(w%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//10
+                if(q%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//11     
+                if(y %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//12
+                if(i %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//13
+                if(k %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//14
+                if(g %2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+//15
+                if(p%2==0) {System.out.println("par");}
+                else {System.out.println("impar");}
+
+//1
+               if((-128 <=f) &&(f<=127)) {System.out.println("byte");}
+               else{System.out.println("double");} 
+
+//2              
+               if((-128 <=d) && (d<=127)) {System.out.println("byte");}
+               else {System.out.println("double");}
+
+//3                 
+               if((-128 <=h )&&(h<=127)) {System.out.println("byte");}
+               else {System.out.println("double");}
+
+//4
+                if((-128 <=j) &&(j<=127) ) {System.out.println("byte");}
+                else {System.out.println("double");}
+
+//5
+                if((-128 <=c )&& (c<=127 )){System.out.println("byte");}
+                else {System.out.println("double");}
+
+//6
+                if((-128 <=a)&&(a<= 127)){System.out.println("byte");}
+                else {System.out.println("double");}
+
+//7                
+                if((-128 <= l) && (l<=127)){System.out.println("byte");}
+                else {System.out.println("double");}
+
+//8
+                if((-128 <= b)&&(b<=127 )){System.out.println(" byte");}
+                else {System.out.println("double");}
+
+//9            
+                if((-128 <= w) && (w<=127 )) {System.out.println("byte");}
+                else {System.out.println("double");}
+
+//10
+                if((-128 <=q) && (q<=127) ) {System.out.println("byte");}
+                else {System.out.println("double");}
+
+//11     
+                if((-128 <=y) &&(y <=127)) {System.out.println("byte");}
+                else {System.out.println("double");}
+
+//12
+                if((-128 <=i )&& (i<=127) ){System.out.println("byte");}
+                else {System.out.println("double");}
+
+//13
+                if((-128 <=k) && (k<=127)) {System.out.println("byte");}
+                else {System.out.println("double");}
+
+//14
+                if((-128 <=g) &&(q<= 127)){System.out.println("byte");}
+                else {System.out.println("double");}
+//15
+                if((-128 <=p) &&(p<= 127)) {System.out.println("byte");}
+                else {System.out.println("double");}
+ 
+               System.out.println("ifElse");  
         }
 }   
